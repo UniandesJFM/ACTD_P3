@@ -1,0 +1,3 @@
+mlflow http://52.22.126.192:8050/
+dash http://34.202.10.38:8050/
+github https://github.com/UniandesJFM/ACTD_P3
