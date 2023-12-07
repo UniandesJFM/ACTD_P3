@@ -8,8 +8,8 @@ RUN adduser --disabled-password --gecos '' dash-user
 WORKDIR /app/
 
 # Copiar archivos necesarios
-COPY dashaws.py .
-COPY modelo1.bif .
+COPY app/dashaws.py .
+COPY app/modelo1.bif .
 
 # Instalar dependencias de Python
 RUN apt-get update && apt-get install -y python3 python3-pip && \
