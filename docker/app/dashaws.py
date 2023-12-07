@@ -14,7 +14,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 # Read model from XML BIF file 
 # Crear un objeto BIFReader y leer el archivo BIF
-ruta_bif = r'C:\Users\oem\Documents\universidad de los andes\octavo\Analitica computacional para la toma de decisiones\proyecto 3\modelo1.bif'
+ruta_bif = 'modelo1.bif'
 
 bif_reader = BIFReader(ruta_bif)
 modelo1 = bif_reader.get_model()
