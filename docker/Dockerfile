@@ -1,5 +1,8 @@
 # Selecciona la imagen base
-FROM ubuntu:latest
+FROM python:3.10
+
+# Crear usuario que ejecuta el dash
+RUN adduser --disabled-password --gecos '' dash-user
 
 # Crear un directorio de trabajo
 WORKDIR /app/
